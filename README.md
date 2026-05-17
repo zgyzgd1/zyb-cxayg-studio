@@ -6,10 +6,10 @@ The published files live in `site/`. Pushes to `main` deploy through GitHub Acti
 
 ## Custom domain
 
-GitHub Pages reads `site/CNAME`, which contains:
+The repository Pages settings use `zyb.cxayg.studio` as the custom domain.
+
+In Cloudflare DNS, point `zyb` to:
 
 ```text
-zyb.cxayg.studio
+zgyzgd1.github.io
 ```
-
-In Cloudflare DNS, point `zyb` to the GitHub Pages hostname after the repository is created.
